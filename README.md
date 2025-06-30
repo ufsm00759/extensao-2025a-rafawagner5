@@ -1,137 +1,55 @@
+RELATÓRIO FINAL DE EXTENSÃO
+Rafael Andre Barbosa Wagner
 
-**RELATÓRIO DE EXTENSÃO**  
-**Rafael Andre Barbosa Wagner**
+Introdução
+Este relatório tem como objetivo apresentar as experiências vivenciadas e os aprendizados adquiridos ao longo da disciplina Práticas Extensionistas na Educação em Computação, ofertada pela UFSM. A proposta da disciplina esteve centrada em aprofundar o entendimento sobre o papel da Extensão Universitária como um dos pilares do ensino superior, promovendo ações práticas que conectassem o conhecimento acadêmico às demandas da sociedade.
 
-Este relatório apresenta um panorama das atividades realizadas e dos conhecimentos adquiridos ao longo da disciplina _Práticas Extensionistas na Educação em Computação_. O principal propósito da disciplina foi aprofundar a compreensão sobre a Extensão Universitária — um dos pilares do ensino superior — e promover sua aplicação por meio de ações práticas desenvolvidas ao longo do semestre.
+Desenvolvimento das Atividades
+Março — Início das Discussões e Primeiras Atividades
+O mês de março foi marcado pelo início das atividades, com dinâmicas de apresentação e integração entre os alunos. Houve também uma introdução teórica à Extensão Universitária, com base em obras como o Livro de Extensão Universitária, de Flavi Lisbôa Filho, e a análise da ação "Flores para Todos / Phenoglad", ligada ao Centro de Ciências Rurais (CCR).
 
-----------
+Na sequência, cada aluno foi incentivado a compartilhar experiências ou projetos de extensão. Relatei minha participação em um projeto voltado ao ensino de programação para estudantes do ensino básico. A semana foi encerrada com uma visita técnica ao Jardim Botânico da UFSM, onde observamos as necessidades locais e começamos a idealizar um projeto de apoio tecnológico.
 
-### Cronograma de Atividades
+Abril — Estruturação dos Projetos e Formação dos Grupos
+Em abril, os alunos foram organizados em três frentes de trabalho: Jardim Botânico, BNCC e Projeto Livre. Optei por integrar o grupo voltado ao Jardim Botânico, por acreditar que poderia contribuir diretamente com as soluções propostas.
 
-#### Março
+O grupo elaborou um planejamento que incluiu:
 
-**10/03 a 14/03**  
-Na primeira semana de aula, foi feito uma apresentação dos alunos, que falavam sobre si, desenhavam o seu autorretrato e faziam perguntas sobre a disciplina. Na aula seguinte, dois grupos apresentaram pesquisas sobre:
+Base de Dados Digital para catalogação de espécies;
 
--   O _Livro de Extensão Universitária_, de Flavi Lisbôa Filho, pró-reitor de extensão da UFSM.
-    
--   A ação "Flores para Todos / Phenoglad", do Centro de Ciências Rurais (CCR).
-    
+Aplicativo Interativo com trilhas virtuais e imagens em 360°;
 
-**17/03 a 21/03**  
-A proposta da semana foi preparar uma apresentação sobre projetos de extensão, sejam eles vivenciados pelos alunos ou pesquisados em fontes como o Portal de Projetos da UFSM.  
-Contei sobre o projeto de extensão no qual participei, onde dei aula para alunos de educação básica, ensinando os fundamentos de programação.
+Sinalização com QR Codes para facilitar o acesso a informações botânicas;
 
-Neste mesmo período, realizamos uma visita técnica ao Jardim Botânico da UFSM.
+Sistema de Visitação Automatizado, para agendamento de visitas e gerenciamento de fluxo.
 
-**24/03 a 28/03**  
-Após a visita, discutimos em sala as principais demandas observadas no Jardim Botânico e começamos a pensar em soluções viáveis. Também iniciamos, em ambiente colaborativo via GitHub, a elaboração do presente relatório e o registro das experiências.
+Durante o mês, realizamos reuniões com a equipe do Jardim Botânico para alinhar objetivos e responsabilidades, além de desenhar diagramas que guiaram a execução das tarefas. Fiquei encarregado da construção do sistema de agendamento de visitas.
 
-----------
+Maio — Desenvolvimento e Implementação Técnica
+Durante o mês de maio, o foco principal foi a implementação das ferramentas planejadas. No meu grupo, avançamos significativamente no sistema de visitas, que passou a incluir:
 
-### Abril
+Envio automático de e-mails de confirmação e solicitação de feedback;
 
-**31/03 a 04/04**  
-Um grupo de voluntários apresentou uma proposta baseada na BNCC (Base Nacional Comum Curricular), com foco no ensino de computação desde os anos iniciais. A proposta abordava:
+Integração com o Google Agenda;
 
--   Atividades lúdicas para introdução ao pensamento computacional;
-    
--   Alfabetização digital básica;
-    
--   Introdução a temas mais avançados, como teoria dos grafos.
-    
+Atualização dinâmica da disponibilidade de horários.
 
-No dia 04/04, visitamos a Incubadora Social / Hub de Inovação Social na Antiga Reitoria da UFSM. Lá, conhecemos os projetos desenvolvidos no local e a estrutura que oferece apoio a iniciativas de impacto social. Foram apresentadas oportunidades de extensão, assim como ampliamos nossa visão para fora do mundo da computação.
+Revisamos o código e corrigimos falhas identificadas durante os testes iniciais. Com o apoio da professora, realizamos ajustes estruturais e discutimos soluções para problemas de integração com ferramentas externas, como a agenda do Google.
 
-**07/04 a 11/04**  
-Durante essa semana, os alunos foram organizados em três frentes de trabalho:
+Junho — Testes, Ajustes Finais e Apresentação
+Com o projeto em estágio avançado, retornamos ao Jardim Botânico para uma apresentação presencial do sistema. Recebemos feedbacks importantes e novas solicitações, entre elas:
 
-1.  Jardim Botânico
-    
-2.  BNCC
-    
-3.  Projeto livre
-    
+Adição de um modo para desativar agendamentos durante recessos;
 
-Escolhi integrar o grupo do Jardim Botânico, por me identificar mais com as necessidades que o Jardim precisava solucionar. A primeira proposta do grupo envolvia a criação de:
+Implementação de uma interface para edição de planilhas no Google Sheets;
 
--   Um diagrama do projeto, para saber quais eras as necessidades a serem solucionadas;
-    
--   Atribuição de tarefas entre os participantes e divisão das responsabilidades, para uma melhor organização e funcionamento do projeto.
-    
+Realização de testes modulares antes da implantação definitiva.
 
-Componentes propostos:
+Nos encontros finais, dedicamo-nos aos ajustes solicitados e, por fim, apresentamos o resultado do projeto à turma, compartilhando aprendizados, desafios enfrentados e impactos esperados da solução desenvolvida.
 
--   **Base de Dados**: catalogação digital das espécies, que anteriormente era feita pelo excel e apresentava alguns problemas;
-    
--   **Aplicativo Interativo**: site com trilha virtual, informações botânicas e uma câmera 360 que mostra pontos importantes do Jardim pelo telefone e possibilita pessoas terem uma noção do que se encontra no lugar;
-    
--   **Sinalização com QR Codes**: placas informativas estrategicamente posicionadas, assim como um sistema que automatiza a criação de novas placas de forma simples e mais fácil;
-    
--   **Sistema de Visitação**: gerenciamento de visitas e registro de agendamentos, automatizando o processo e diminuindo a necessidade dos funcionários do Jardim precisarem gerenciar as visitas de forma manual.
-    
+Considerações Finais
+A participação na disciplina foi extremamente enriquecedora tanto no aspecto técnico quanto humano. Pude aplicar, de forma prática, os conhecimentos adquiridos no curso de Computação, desenvolvendo um sistema útil para a comunidade universitária e aprendendo mais sobre as reais necessidades de instituições como o Jardim Botânico da UFSM.
 
-**14/04 a 18/04**  
-Realizamos uma reunião com a equipe do Jardim Botânico para alinhar as expectativas e definir os módulos do projeto. Me envolvi especialmente com o desenvolvimento do sistema de agendamento de visitas, que incluiria:
+Além disso, aprimorei habilidades fundamentais como trabalho em equipe, organização de projetos, contato com usuários reais e adaptação de soluções conforme o feedback recebido. A vivência extensionista trouxe uma perspectiva mais ampla sobre o papel do universitário fora da sala de aula, demonstrando que a tecnologia, quando bem direcionada, pode ser um instrumento de transformação social.
 
--   Envio automático de e-mails de confirmação, no qual confirmava se a visita seria feita e solicitava um feedback do visitante após a visita;
-    
--   Integração com o Google Agenda;
-    
--   Atualização de disponibilidade em tempo real.
-    
 
-**21/04 a 25/04**  
-Nesta semana, houve uma nova reunião com a professora. Reorganizamos as equipes e detalhamos os prazos de cada módulo. Meu grupo elaborou um **diagrama inicial** com as etapas e objetivos futuros, foram debatidas propostas de melhoria e do que poderia ser feito.
-
-----------
-
-### Maio
-
-**28/04 a 02/05**  
-Demos continuidade ao planejamento e apresentamos nossos primeiros resultados em uma reunião com a professora. Discutimos também os próximos passos para os módulos em desenvolvimento.
-
-**05/05 a 09/05**  
-Avançamos na implementação do sistema de agendamento e apresentamos os primeiros códigos funcionais.
-
-**12/05 a 16/05**  
-Após uma nova reunião, realizamos ajustes no código e corrigimos falhas encontradas nos testes iniciais.
-
-**19/05 a 23/05**  
-Seguimos com melhorias no código e discutimos novas possibilidades de adaptação da ferramenta.
-
-**26/05 a 30/05**  
-Tivemos uma reunião com a professora onde foram levantados problemas na integração com o Google Agenda, além de sugestões de refinamento no sistema.
-
-----------
-
-### Junho
-
-**02/06 a 06/06**  
-Foi agendada uma nova reunião no Jardim Botânico para apresentar o andamento do projeto e obter feedback direto da equipe local.
-
-**08/06 a 13/06**  
-Durante a visita presencial, apresentamos o sistema implementado até o momento. Recebemos novas solicitações, como:
-
--   Inclusão de um modo para **cancelar agendamentos durante períodos de recesso**;
-    
--   Criação de um **menu para edição de planilhas no Google Sheets**, onde estão os dados dos bolsistas;
-    
--   Realização de testes modulares visando à futura instalação definitiva da solução.
-    
-
-**16/06 a 18/06**  
-Reunião online com a professora para tratar dos ajustes finais. Nosso grupo trabalhou na implementação das novas demandas apresentadas na visita anterior.
-
-**23/06 a 27/06**  
-Na última semana, encerramos a disciplina com uma apresentação geral de todos os grupos. Cada equipe compartilhou seus aprendizados, desafios enfrentados e os resultados obtidos.
-
-----------
-
-### Considerações Finais
-
-A disciplina proporcionou uma experiência prática enriquecedora, unindo teoria e aplicação real, pude ter uma melhor compreensão do que é extensão dentro e fora da universidade. O projeto do Jardim Botânico nos permitiu aplicar conhecimentos de computação para solucionar demand
-
-List item
-
-as reais da comunidade, além de desenvolver habilidades de trabalho em equipe, planejamento de projetos e comunicação com usuários finais, aprendi muitos conteúdos que somente a  faculdade não iria me proporcionar, o conhecimento sobre a necessidade de automatização e as ferramentas utilizadas para implementar essa necessidade.
